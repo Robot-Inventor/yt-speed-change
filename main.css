@@ -10,6 +10,7 @@
     border-radius: 0.5rem 0 0 0;
     outline: none;
     cursor: default;
+    z-index: 300;
 }
 
 #video_speed_controller button {

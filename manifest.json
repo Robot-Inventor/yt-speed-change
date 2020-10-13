@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "ORIZIN YT Speed Change",
     "short_name": "Speed Change",
-    "version": "0.0.1.0",
+    "version": "1.0.2.0",
     "description": "Save time by changing the playback speed of YouTube at will.",
     "icons": {
         "16": "image/icon16.png",
