@@ -1,4 +1,4 @@
-#video_speed_controller {
+#speed_controller {
     width: auto;
     height: auto;
     position: fixed;
@@ -13,13 +13,13 @@
     z-index: 300;
 }
 
-#video_speed_controller button {
+#speed_reset_button {
     cursor: pointer;
     border: none;
     background: transparent;
 }
 
-#video_speed_controller_value {
+#speed_controller_input {
     background: transparent;
     border: none;
     cursor: text;

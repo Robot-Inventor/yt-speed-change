@@ -1,8 +1,19 @@
-window.onload = function() {
-    default_speed = document.querySelector("video.video-stream.html5-main-video") ? document.querySelector("video.video-stream.html5-main-video").playbackRate : 1;
-    document.body.insertAdjacentHTML("beforeend", `
-<div id="video_speed_controller">
-    Speed: <input type="number" id="video_speed_controller_value" value=${default_speed} oninput="document.querySelector('video.video-stream.html5-main-video').playbackRate = event.target.value;"><button onclick="document.getElementById('video_speed_controller_value').value = 1; document.querySelector('video.video-stream.html5-main-video').playbackRate = document.getElementById('video_speed_controller_value').value;">reset</button>
+const video_element = document.querySelector("video.video-stream.html5-main-video");
+let default_speed = video_element ? parseFloat(video_element.playbackRate) : 1;
+
+document.body.insertAdjacentHTML("beforeend", `
+<div id="speed_controller">
+    Speed: <input type="number" id="speed_controller_input" value=${default_speed}><button id="speed_reset_button">reset</button>
 </div>
-    `);
-};
+`);
+
+const speed_input = document.getElementById("speed_controller_input");
+
+speed_input.addEventListener("input", () => {
+    video_element.playbackRate = speed_input.value;
+});
+
+document.getElementById("speed_reset_button").addEventListener("click", () => {
+    speed_input.value = 1;
+    video_element.playbackRate = speed_input.value;
+});
