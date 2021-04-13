@@ -10,6 +10,10 @@ YouTubeの再生速度を自在に変更して時間を節約。
 
 再生速度の値をコントローラーに直接入力できますし、マウスホイールを使った直感的な操作もできます。また、ワンタッチで再生速度をリセットできます。YouTube標準の再生速度設定ではできない、0.1倍速や4倍速にも設定できます。
 
+![Screenshot](image/for_readme/sample.png)
+
+![Screenshot](image/for_readme/sample2.png)
+
 ## インストール方法
 
 ### Google Chrome
