@@ -31,3 +31,13 @@ Click [Load Unpacked] and select the folder you downloaded the extension to.
 ### Firefox
 
 Just install from [AMO](https://addons.mozilla.org/ja/firefox/addon/yt-speed-change/).
+
+## Bugs And Features to Be Implemented
+
+This extension is currently under development. It has the following known bugs.
+
+- Bug: Playback speed controller is also displayed in YouTube Studio
+
+In addition, the following features will be implemented.
+
+- Automatically hide the playback speed controller when in full screen mode
