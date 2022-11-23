@@ -38,10 +38,6 @@ Just install from [AMO](https://addons.mozilla.org/ja/firefox/addon/yt-speed-cha
 
 ## Bugs And Features to Be Implemented
 
-This extension is currently under development. It has the following known bugs.
-
-- Bug: Playback speed controller is also displayed in YouTube Studio
-
-In addition, the following features will be implemented.
+This extension is currently under development. The following features will be implemented.
 
 - Automatically hide the playback speed controller when in full screen mode

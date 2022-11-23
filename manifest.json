@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "YT Speed Change",
     "short_name": "Speed Change",
-    "version": "1.0.4.2",
+    "version": "1.0.5.3",
     "description": "Save time by changing the playback speed of YouTube at well.",
     "icons": {
         "16": "image/icon16.png",
@@ -12,7 +12,8 @@
     "content_scripts": [
         {
             "matches": [
-                "https://*.youtube.com/*"
+                "https://www.youtube.com/*",
+                "https://m.youtube.com/*"
             ],
             "js": [
                 "main.js"
