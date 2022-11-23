@@ -1,0 +1,23 @@
+{
+  "name": "yt-speed-change",
+  "version": "1.0.3",
+  "description": "A browser extension to change the playback speed of YouTube freely and intuitively.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx web-ext build --ignore-files \"./**/*.md\" package.json package-lock.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-Inventor/yt-speed-change.git"
+  },
+  "author": "Robot-Inventor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/yt-speed-change/issues"
+  },
+  "homepage": "https://github.com/Robot-Inventor/yt-speed-change#readme",
+  "devDependencies": {
+    "web-ext": "^7.3.1"
+  }
+}

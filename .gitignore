@@ -1,2 +1,3 @@
 .dccache
 web-ext-artifacts/
+node_modules
