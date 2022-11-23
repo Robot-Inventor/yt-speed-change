@@ -35,9 +35,3 @@ YouTubeの再生速度を自在に変更して時間を節約。
 ### Firefox
 
 [AMO](https://addons.mozilla.org/ja/firefox/addon/yt-speed-change/)からインストールするだけです。
-
-## バグと実装予定の機能
-
-この拡張機能は現在開発途中です。次の機能を実装予定です。
-
-- 全画面表示にしたとき、再生速度コントローラーを自動で非表示にする機能

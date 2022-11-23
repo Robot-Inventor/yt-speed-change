@@ -13,6 +13,10 @@
     z-index: 300;
 }
 
+#speed_controller.fullscreen_mode {
+    display: none;
+}
+
 #speed_reset_button {
     cursor: pointer;
     border: none;

@@ -1,4 +1,5 @@
 const video_selector = "video.video-stream.html5-main-video";
+const fullscreen_mode_class = "fullscreen_mode";
 
 /**
  * Get visible video element which is played now.
@@ -59,3 +60,12 @@ controller_outer.appendChild(speed_input);
 controller_outer.appendChild(reset_button);
 
 document.body.appendChild(controller_outer);
+
+// Hide controller when fullscreen mode.
+document.addEventListener("fullscreenchange", () => {
+    if (document.fullscreenElement) {
+        controller_outer.classList.add(fullscreen_mode_class);
+    } else {
+        controller_outer.classList.remove(fullscreen_mode_class);
+    }
+});
